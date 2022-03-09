@@ -158,5 +158,207 @@
     "sale": true,
     "inStock": true,
     "description": "Some people are happy to take pictures from the comfort of the sidelines. That's nice. But if you want to be part of the action, you need a camera as tough as you. For those thrill seekers and action-hounds, meet the COOLPIX W300, a tough-as-nails camera designed for the extremes. Waterproof, freezeproof, shockproof and dustproof, it captures 4K Ultra HD video, 16 MP photos, time-lapse movies and more in the harshest conditions. Bring it surfing, skiing, SCUBA diving, biking, climbing...wherever your adventures lead. Use the built-in GPS, eCompass, altimeter, Wi-Fi® and Bluetooth® Low Energy to track and share every heart-pounding moment. Show the world what you're really made of."
-  }
+  },
+  {
+
+    "id":8,
+    "name" : "FUJIFILM X-T30",
+    "brand" : "Fujifilm",
+    "categories" : "BridgeZoom",
+    "price" : {
+        "newPrice" :"499.99" ,
+        "oldPrice" : "549.99"
+    },
+        "image":{
+            "src":"images/fujifilm/image1.jpg",
+            "alt" : "FUJIFILM X-T30"
+    
+        },
+        "popularity": 5,
+        "bestSelling": true,
+        "new" : false,
+        "sale" : true,
+        "inStock" : true,
+        "description" : "The FUJIFILM X-T30, offers similar performance to the FUJIFILM X-T3, in a smaller and lighter body. It has the same phase-detection AF system with almost 100% frame coverage, blackout-free high-speed continuous shooting of up to 30fps, monochrome adjustment function, Color Chrome effect and Sports Viewfinder mode while also offering functions that cater to the less professional photographer, such as the Advanced SR Auto function as well."
+ },
+ {
+
+    "id":9,
+    "name" : "FUJIFILM X-T30 II",
+    "brand" : "Fujifilm",
+    "categories" : "BridgeZoom",
+    "price" : {
+        "newPrice" :"769.99" ,
+        "oldPrice" : "799.99"
+    },
+        "image":{
+            "src":"images/fujifilm/image2.jpg",
+            "alt" : "FUJIFILM X-T30 II"
+    
+        },
+        "popularity": 4.5,
+        "bestSelling": true,
+        "new" : false,
+        "sale" : true,
+        "inStock" : true,
+        "description" : "The new FUJIFILM X-T30 II inherits the compact and lightweight camera body, popular with the “FUJIFILM X-T30” (the previous model), but delivers high-speed AF performance and image quality equivalent to the flagship model, “FUJIFILM X-T4” (X-T4). The X-T30 II features a high-resolution 1.62-million-dot LCD monitor on the rear panel, an upgrade from the previous model, to achieve evolution in both hardware and software"
+ },
+ {
+
+    "id":10,
+    "name" : "FUJIFILM GFX50S II with GF35-70mm Lens",
+    "brand" : "Fujifilm",
+    "categories" : "BridgeZoom",
+    "price" : {
+        "newPrice" :"3899.99" ,
+        "oldPrice" : "4199.99"
+    },
+        "image":{
+            "src":"images/fujifilm/image3.jpg",
+            "alt" : "FUJIFILM GFX50S II with GF35-70mm Lens"
+    
+        },
+        "popularity": 5,
+        "bestSelling": true,
+        "new" : false,
+        "sale" : false,
+        "inStock" : true,
+        "description" : "The FUJIFILM GFX50S II is built around a highly resolving 51.4MP large format sensor, while retaining a comfortable and portable form factor. Utilising specially shaped micro lenses that focus light more efficiently, the camera boasts superlative detail and clarity. This also improves performance across ISO sensitivity, dynamic range and tonality."
+ },
+ {
+
+    "id":11,
+    "name" : "FUJIFILM GFX50S II ",
+    "brand" : "Fujifilm",
+    "categories" : "BridgeZoom",
+    "price" : {
+        "newPrice" :"3499.99" ,
+        "oldPrice" : "3699.99"
+    },
+        "image":{
+            "src":"images/fujifilm/image4.jpg",
+            "alt" : "FUJIFILM GFX50S II"
+    
+        },
+        "popularity": 4.5,
+        "bestSelling": true,
+        "new" : false,
+        "sale" : true,
+        "inStock" : true,
+        "description" : "The FUJIFILM GFX50S II is built around a highly resolving 51.4MP large format sensor, while retaining a comfortable and portable form factor. Utilising specially shaped micro lenses that focus light more efficiently, the camera boasts superlative detail and clarity. This also improves performance across ISO sensitivity, dynamic range and tonality."
+ },
+ {
+
+  "id":12,
+  "name" : "FUJIFILM X-E4 Kit (XF27mm Lens) Refurbished",
+  "brand" : "Fujifilm",
+  "categories" : "BridgeZoom",
+  "price" : {
+      "newPrice" :"849.99" ,
+      "oldPrice" : "999.99"
+  },
+      "image":{
+          "src":"images/fujifilm/image5.jpg",
+          "alt" : "FUJIFILM GFX50S II"
+  
+      },
+      "popularity": 4,
+      "bestSelling": true,
+      "new" : false,
+      "sale" : true,
+      "inStock" : true,
+      "description" : "The FUJIFILM X-E4 takes the high quality you would expect from a FUJIFILM X Series camera and packs it into an ultra-compact and stylish body, weighing just 364g. With the ability to capture stunning photos and videos, the X-E4 is perfect for everyday photographers, travel photographers, videographers and content creators."
+},
+
+{
+
+  "id":13,
+  "name" : "Instax mini LiPlay",
+  "brand" : "Instax",
+  "categories" : "Instant Camera",
+  "price" : {
+      "newPrice" :"149.99" ,
+      "oldPrice" : "169.99"
+  },
+      "image":{
+          "src":"images/fujifilm/image6.jpg",
+          "alt" : "Instax mini LiPlay"
+  
+      },
+      "popularity": 5,
+      "bestSelling": true,
+      "new" : false,
+      "sale" : true,
+      "inStock" : true,
+      "description" : "LiPlay may be the smallest instax ever, but this all-new 2-in1 hybrid instant camera can throw an almighty punch.Perfect for the tiniest of bags (or even pockets) there’s a whole lot to love. For starters this isn’t just an instant camera. It’s also a smart little printer, so you can also use LiPlay as your Smartphone’s personal printer."
+},
+{
+
+  "id":14,
+  "name" : "Instax mini 11",
+  "brand" : "Instax",
+  "categories" : "Instant Camera",
+  "price" : {
+      "newPrice" :"69.99" ,
+      "oldPrice" : "79.99"
+  },
+      "image":{
+          "src":"images/fujifilm/image7.jpg",
+          "alt" : "Instax mini 11"
+  
+      },
+      "popularity": 1,
+      "bestSelling": false,
+      "new" : true,
+      "sale" : false,
+      "inStock" : true,
+      "description" : "Designed to fit seamlessly into your everyday, the super social instax mini 11 makes sharing the frame easy, bringing joy to any moment. The bubbly, super social and delightfully small instax mini 11 loves nothing more than bringing friends and family together. "
+},
+{
+
+  "id":15,
+  "name" : "Instax SQUARE SQ1 Instant Camera",
+  "brand" : "Instax",
+  "categories" : "Instant Camera",
+  "price" : {
+      "newPrice" :"119.99" ,
+      "oldPrice" : "129.99"
+  },
+      "image":{
+          "src":"images/fujifilm/image8.jpg",
+          "alt" : "Instax SQUARE SQ1 Instant Camera"
+  
+      },
+      "popularity": 1,
+      "bestSelling": false,
+      "new" : true,
+      "sale" : false,
+      "inStock" : true,
+      "description" : "Beautiful. Creative. Clean. The instax SQUARE SQ1 is designed to turn heads. Embracing simplicity through function and design, this stylish instant camera effortlessly produces atmospheric square photos. So you get more of what you want in every shot."
+},
+{
+
+  "id":16,
+  "name" : "Instax mini 40",
+  "brand" : "Instax",
+  "categories" : "Instant Camera",
+  "price" : {
+      "newPrice" :"89.99" ,
+      "oldPrice" : "94.99"
+  },
+      "image":{
+          "src":"images/fujifilm/image9.jpg",
+          "alt" : "Instax mini 40"
+  
+      },
+      "popularity": 1,
+      "bestSelling": false,
+      "new" : true,
+      "sale" : false,
+      "inStock" : true,
+      "description" : "Pumped with attitude, the instax mini 40 combines fast to action features with classic design cues, so you can give your take before anyone else.The instax mini 40 is pumped with attitude for todays new generation of image makers and shot takers"
+}
+
+
+
 ]
