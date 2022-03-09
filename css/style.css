@@ -275,7 +275,9 @@
 .login-box .form-control{
      background: none;
      border: none;
+     
 }
+
  .login-box .bootstrap-select .btn-light{
      padding: 4px;
      font-size: 14px;
