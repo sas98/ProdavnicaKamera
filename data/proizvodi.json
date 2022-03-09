@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "COOLPIX P950",
+    "brand": "Nikon",
+    "categories": "BridgeZoom",
+    "price": {
+      "newPrice": "799.99",
+      "oldPrice": "900"
+    },
+    "image": {
+      "src": "images/nikon/image1.jpg",
+      "alt": "COOLPIX P950"
+    },
+    "popularity": 5,
+    "bestSelling": true,
+    "new": false,
+    "sale": true,
+    "inStock": true,
+    "description": "The 83x optical zoom of the COOLPIX P950 covers an incredible focal-length range, from wide-angle 24mm1 to super-telephoto 2,000mm1 and everything in between. With a zoom this powerful, you can capture distant subjects far beyond the reach of an ordinary camera—from birds and other animals in the wild, to distant landscapes, aircraft and even planets. Dynamic Fine Zoom2, an enhanced digital zoom that effectively doubles the reach to a 4,000mm1, allowing for even greater zoom potential. At the other end of the spectrum, macro photography can be captured as close as approx. 1 cm/0.4 in.3. From macro close-ups to extreme telephoto superzoom , the COOLPIX P950 delivers sharp, clear and beautiful images, all in a compact, highly portable body."
+  },
+  {
+    "id": 2,
+    "name": "COOLPIX B600",
+    "brand": "Nikon",
+    "categories": "BridgeZoom",
+    "price": {
+      "newPrice": "329.99",
+      "oldPrice": "399.99"
+    },
+    "image": {
+      "src": "images/nikon/image2.jpg",
+      "alt": "COOLPIX B600"
+    },
+    "popularity": 4.5,
+    "bestSelling": false,
+    "new": false,
+    "sale": true,
+    "inStock": true,
+    "description": "Do what smartphones simply can't. Compact and lightweight, the COOLPIX B600 packs amazing zoom power—up to 60x optical zoom with Lens Shift Vibration Reduction (VR) to keep the shots sharp and steady. And when you need more reach, Dynamic Fine Zoom effectively doubles that reach to 120x. Comfortable handling, simple menus and a Mode Dial make it easy to select the right photo or video settings for your situation and to apply creative filters and effects. Record steady Full HD videos with 4-Axis Hybrid VR, create star trails, macro images and video montages with ease, and then share your creations, or control the camera, with a compatible smartphone or tablet."
+  },
+  {
+    "id": 3,
+    "name": "COOLPIX P1000",
+    "brand": "Nikon",
+    "categories": "BridgeZoom",
+    "price": {
+      "newPrice": "999.99",
+      "oldPrice": "1099.99"
+    },
+    "image": {
+      "src": "images/nikon/image3.jpg",
+      "alt": "COOLPIX P1000"
+    },
+    "popularity": 5,
+    "bestSelling": true,
+    "new": false,
+    "sale": true,
+    "inStock": true,
+    "description": "Imagine being able to zoom far beyond the reach of standard telephoto lenses, to capture not just the moon, but the craters, peaks and valleys of its surface. Imagine being able to view the International Space Station in flight, even the rings of Saturn—not with a telescope, but with a one-of-a-kind Nikon camera. Introducing the COOLPIX P1000, the most extreme zoom Nikon ever, and a game-changer for birders, sports and wildlife enthusiasts, travel photographers and even those aspiring to venture to the moon and beyond without leaving their backyard."
+  },
+  {
+    "id": 4,
+    "name": "COOLPIX B500",
+    "brand": "Nikon",
+    "categories": "BridgeZoom",
+    "price": {
+      "newPrice": "399.99",
+      "oldPrice": "349.99"
+    },
+    "image": {
+      "src": "images/nikon/image4.jpg",
+      "alt": "COOLPIX B500"
+    },
+    "popularity": 4,
+    "bestSelling": false,
+    "new": false,
+    "sale": true,
+    "inStock": true,
+    "description": "The COOLPIX B500 feels great in your hands, whether you're zooming in with its super telephoto NIKKOR glass lens or recording 1080p Full HD video using the flip-up LCD. And it takes all the work out of shooting beautiful photos and videos with its 16 megapixel low-light sensor, Lens-Shift Vibration Reduction (VR), easy menus and controls, fun creative effects and outstanding automatic operation. Plus, the whole time you're shooting, the COOLPIX B500 can be easily and seamlessly connected to a compatible smartphone through Bluetooth® low energy (BLE) technology for instant photo sharing and remote camera control. Simply brilliant."
+  },
+  {
+    "id": 5,
+    "name": "COOLPIX A1000",
+    "brand": "Nikon",
+    "categories": "BridgeZoom",
+    "price": {
+      "newPrice": "479.99",
+      "oldPrice": "489.99"
+    },
+    "image": {
+      "src": "images/nikon/image5.jpg",
+      "alt": "COOLPIX A1000"
+    },
+    "popularity": 1,
+    "bestSelling": false,
+    "new": true,
+    "sale": false,
+    "inStock": true,
+    "description": "Packed inside this sleek, high-end design is a super telephoto NIKKOR zoom lens and serious photo and video power: versatile low-light capabilities, rock-steady image and video stabilization, 4K Ultra HD recording, P/S/A/M control, RAW shooting, creative modes and filters, a tilting touchscreen and even an ultra-sharp electronic viewfinder for composing like a pro. It connects to the SnapBridge 2.5 app for instant sharing and remote control, and it handles like a dream. For those who want an all-in-one camera that can do it all, the COOLPIX A1000 delivers."
+  },
+  {
+    "id": 5,
+    "name": "COOLPIX A1000",
+    "brand": "Nikon",
+    "categories": "BridgeZoom",
+    "price": {
+      "newPrice": "479.99",
+      "oldPrice": "489.99"
+    },
+    "image": {
+      "src": "images/nikon/image5.jpg",
+      "alt": "COOLPIX A1000"
+    },
+    "popularity": 1,
+    "bestSelling": false,
+    "new": true,
+    "sale": false,
+    "inStock": true,
+    "description": "Packed inside this sleek, high-end design is a super telephoto NIKKOR zoom lens and serious photo and video power: versatile low-light capabilities, rock-steady image and video stabilization, 4K Ultra HD recording, P/S/A/M control, RAW shooting, creative modes and filters, a tilting touchscreen and even an ultra-sharp electronic viewfinder for composing like a pro. It connects to the SnapBridge 2.5 app for instant sharing and remote control, and it handles like a dream. For those who want an all-in-one camera that can do it all, the COOLPIX A1000 delivers."
+  },
+  {
+    "id": 6,
+    "name": "COOLPIX W150",
+    "brand": "Nikon",
+    "categories": "Waterproof/ShockProof",
+    "price": {
+      "newPrice": "169.99",
+      "oldPrice": "189.99"
+    },
+    "image": {
+      "src": "images/nikon/image6.jpg",
+      "alt": "COOLPIX W150"
+    },
+    "popularity": 1,
+    "bestSelling": false,
+    "new": true,
+    "sale": false,
+    "inStock": true,
+    "description": "The tough and reliable COOLPIX W150 is built to go places you wouldn’t dare take other cameras—even underwater! Shoot rich, high-quality photos and Full HD videos of your next trip to the pool, the lake or the mountains without having to worry about falls, splashes, dunks or frigid temperatures. Jump right in and capture mesmerizing underwater action like never before down to 33 feet. Explore a host of custom scene modes and special effects or keep it simple and let the waterproof camera do the work. The COOLPIX W150 is as user-friendly as it is rugged, making it a breeze for anyone in the family to use. And when you’re finished documenting your adventures, SnapBridge can automatically transfer your shots straight to your compatible smartphone or tablet for easy sharing."
+  },
+  {
+    "id": 7,
+    "name": "COOLPIX W300",
+    "brand": "Nikon",
+    "categories": "Waterproof/ShockProof",
+    "price": {
+      "newPrice": "389.99",
+      "oldPrice": "449.99"
+    },
+    "image": {
+      "src": "images/nikon/image7.jpg",
+      "alt": "COOLPIX W300"
+    },
+    "popularity": 3.5,
+    "bestSelling": false,
+    "new": false,
+    "sale": true,
+    "inStock": true,
+    "description": "Some people are happy to take pictures from the comfort of the sidelines. That's nice. But if you want to be part of the action, you need a camera as tough as you. For those thrill seekers and action-hounds, meet the COOLPIX W300, a tough-as-nails camera designed for the extremes. Waterproof, freezeproof, shockproof and dustproof, it captures 4K Ultra HD video, 16 MP photos, time-lapse movies and more in the harshest conditions. Bring it surfing, skiing, SCUBA diving, biking, climbing...wherever your adventures lead. Use the built-in GPS, eCompass, altimeter, Wi-Fi® and Bluetooth® Low Energy to track and share every heart-pounding moment. Show the world what you're really made of."
+  }
+]
