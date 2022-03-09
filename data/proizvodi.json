@@ -366,42 +366,307 @@
   "brand" : "Canon",
   "categories" : "Digital Camera",
   "price" : {
-      "newPrice" :"89.99" ,
-      "oldPrice" : "94.99"
+      "newPrice" :"999.99" ,
+      "oldPrice" : "1199.99"
   },
       "image":{
           "src":"images/canon/image1.jpg",
-          "alt" : "Instax mini 40"
+          "alt" : "PowerShot G1 X Mark III"
   
       },
-      "popularity": 1,
-      "bestSelling": false,
-      "new" : true,
-      "sale" : false,
+      "popularity": 4,  
+      "bestSelling": true,
+      "new" : false,
+      "sale" : true,
       "inStock" : true,
       "description" : null 
     },
     {
 
       "id":18,
-      "name" : "PowerShot G1 X Mark III",
+      "name" : "PowerShot G5 X Mark II",
       "brand" : "Canon",
-      "categories" : "Instant Camera",
+      "categories" : "Digital Camera",
       "price" : {
-          "newPrice" :"89.99" ,
-          "oldPrice" : "94.99"
+          "newPrice" :"899.99" ,
+          "oldPrice" : "1099.99"
       },
           "image":{
-              "src":"images/fujifilm/image2.jpg",
-              "alt" : "Instax mini 40"
+              "src":"images/canon/image2.jpg",
+              "alt" : "PowerShot G5 X Mark II"
       
           },
-          "popularity": 1,
+          "popularity": 3.5,
           "bestSelling": false,
-          "new" : true,
-          "sale" : false,
-          "inStock" : true,
+          "new" : false,
+          "sale" : true,
+          "inStock" : false,
           "description" : null 
+        },
+        {
+
+      "id":19,
+      "name" : "PowerShot G5 X Mark II",
+      "brand" : "Canon",
+      "categories" : "Digital Camera",
+      "price" : {
+          "newPrice" :"899.99" ,
+          "oldPrice" : "1099.99"
+      },
+          "image":{
+              "src":"images/canon/image2.jpg",
+              "alt" : "PowerShot G5 X Mark II"
+      
+          },
+          "popularity": 3.5,
+          "bestSelling": false,
+          "new" : false,
+          "sale" : true,
+          "inStock" : false,
+          "description" : null 
+        },
+        {
+
+          "id":20,
+          "name" : "PowerShot G7 X Mark III Black",
+          "brand" : "Canon",
+          "categories" : "Digital Camera",
+          "price" : {
+              "newPrice" :"749.99" ,
+              "oldPrice" : "1099.99"
+          },
+              "image":{
+                  "src":"images/canon/image3.jpg",
+                  "alt" : "PowerShot G7 X Mark III Black"
+          
+              },
+              "popularity": 2.5,
+              "bestSelling": false,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  true,
+              "description" : null 
+        },
+        {
+
+          "id":21,
+          "name" : "PowerShot G7 X Mark II",
+          "brand" : "Canon",
+          "categories" : "Digital Camera",
+          "price" : {
+              "newPrice" :"629.99" ,
+              "oldPrice" : "799.99"
+          },
+              "image":{
+                  "src":"images/canon/image4.jpg",
+                  "alt" : "PowerShot G7 X Mark II"
+          
+              },
+              "popularity": 4,
+              "bestSelling": true,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  true,
+              "description" : null 
+        },
+        {
+
+          "id":22,
+          "name" : "PowerShot SX70 HS",
+          "brand" : "Canon",
+          "categories" : "Digital Camera",
+          "price" : {
+              "newPrice" :"599.99" ,
+              "oldPrice" : "620.99"
+          },
+              "image":{
+                  "src":"images/canon/image5.jpg",
+                  "alt" : "PowerShot SX70 HS"
+          
+              },
+              "popularity": 3.5,
+              "bestSelling": false,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  false,
+              "description" : null 
+        },
+        {
+
+          "id":23,
+          "name" : "PowerShot SX420 IS Red",
+          "brand" : "Canon",
+          "categories" : "Digital Camera",
+          "price" : {
+              "newPrice" :"279.99" ,
+              "oldPrice" : "350"
+          },
+              "image":{
+                  "src":"images/canon/image6.jpg",
+                  "alt" : "PowerShot SX420 IS Red"
+          
+              },
+              "popularity": 3.7,
+              "bestSelling": false,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  true,
+              "description" : null 
+        },
+        {
+
+          "id":24,
+          "name" : "PowerShot SX720 HS Red",
+          "brand" : "Canon",
+          "categories" : "Digital Camera",
+          "price" : {
+              "newPrice" :"309.99" ,
+              "oldPrice" : "320.99"
+          },
+              "image":{
+                  "src":"images/canon/image7.jpg",
+                  "alt" : "PowerShot SX720 HS Red"
+          
+              },
+              "popularity": 1,
+              "bestSelling": false,
+              "new" : true,
+              "sale" : false,
+              "inStock" :  true,
+              "description" : null 
+        },
+        {
+
+          "id":25,
+          "name" : "PowerShot ELPH 190 IS Black",
+          "brand" : "Canon",
+          "categories" : "Digital Camera",
+          "price" : {
+              "newPrice" :"179.99" ,
+              "oldPrice" : "219.99"
+          },
+              "image":{
+                  "src":"images/canon/image8.jpg",
+                  "alt" : "PowerShot ELPH 190 IS Black"
+          
+              },
+              "popularity": 3,
+              "bestSelling": false,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  true,
+              "description" : null 
+        },
+        {
+
+          "id":26,
+          "name" : "ILCE-7C",
+          "brand" : "Sony",
+          "categories" : "BridgeZoom",
+          "price" : {
+              "newPrice" :"1799.99" ,
+              "oldPrice" : "1879.99"
+          },
+              "image":{
+                  "src":"images/sony/image1.jpg",
+                  "alt" : "ILCE-7C"
+          
+              },
+              "popularity": 1,
+              "bestSelling": false,
+              "new" : true,
+              "sale" : false,
+              "inStock" :  true,
+              "description" : "Alpha 7C - Full-frame Mirrorless Interchangeable Lens Camera. Compact / light weight with 24.2MP up to 10FPS, 4K 30p, flip-out vari-ngle LCD"
+        },
+
+        {
+
+          "id":27,
+          "name" : "ILCE-6600",
+          "brand" : "Sony",
+          "categories" : "BridgeZoom",
+          "price" : {
+              "newPrice" :"1399.99" ,
+              "oldPrice" : "1449.99"
+            },
+              "image":{
+                  "src":"images/sony/image2.jpg",
+                  "alt" : "ILCE-6600"
+          
+              },
+              "popularity": 5,
+              "bestSelling": true,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  true,
+              "description" : "Alpha 6600 - APS-C Mirrorless Interchangeable Lens Camera. Compact 24.2MP up to 11FPS with AF/AE, 4K HDR, 5-axis In-body Stabilization"
+        },
+        {
+
+          "id":28,
+          "name" : "ILCE-6400L",
+          "brand" : "Sony",
+          "categories" : "BridgeZoom",
+          "price" : {
+              "newPrice" :"999.99" ,
+              "oldPrice" : "1199.99"
+            },
+              "image":{
+                  "src":"images/sony/image3.jpg",
+                  "alt" : "ILCE-6400L"
+          
+              },
+              "popularity": 4.4,
+              "bestSelling": true,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  true,
+              "description" : "Alpha 6400 APS-C Mirrorless Interchangeable Lens Camera  and Lens Kit. Compact 24.2MP up to 11FPS with AF/AE, 4K HDR"
+        },
+        {
+
+          "id":29,
+          "name" : "ILCE-6100L",
+          "brand" : "Sony",
+          "categories" : "BridgeZoom",
+          "price" : {
+              "newPrice" :"849.99" ,
+              "oldPrice" : "989.99"
+            },
+              "image":{
+                  "src":"images/sony/image4.jpg",
+                  "alt" : "ILCE-6100L"
+          
+              },
+              "popularity": 4.3,
+              "bestSelling": true,
+              "new" : false,
+              "sale" : true,
+              "inStock" :  true,
+              "description" : "Alpha 6100 - APS-C Mirrorless Interchangeable Lens Camera and Lens Kit. Compact 24.2MP up to 11FPS with AF/AE, 4K HDR"
+        },
+        {
+
+          "id":30,
+          "name" : "ILCE-6000",
+          "brand" : "Sony",
+          "categories" : "BridgeZoom",
+          "price" : {
+              "newPrice" :"549.99" ,
+              "oldPrice" : "569.99"
+            },
+              "image":{
+                  "src":"images/sony/image5.jpg",
+                  "alt" : "ILCE-6000"
+          
+              },
+              "popularity": 1,
+              "bestSelling": false,
+              "new" : true,
+              "sale" : false,
+              "inStock" :  true,
+              "description" : "Alpha 6000 - APS-C Mirrorless Interchangeable Lens Camera. Compact 24.3MP up to 11FPS with AF/AE, Full HD 1080p"
         }
 
 
