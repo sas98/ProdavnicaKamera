@@ -357,6 +357,29 @@
       "sale" : false,
       "inStock" : true,
       "description" : "Pumped with attitude, the instax mini 40 combines fast to action features with classic design cues, so you can give your take before anyone else.The instax mini 40 is pumped with attitude for todays new generation of image makers and shot takers"
+},
+
+{
+
+  "id":17,
+  "name" : "Instax mini 40",
+  "brand" : "Instax",
+  "categories" : "Instant Camera",
+  "price" : {
+      "newPrice" :"89.99" ,
+      "oldPrice" : "94.99"
+  },
+      "image":{
+          "src":"images/fujifilm/image9.jpg",
+          "alt" : "Instax mini 40"
+  
+      },
+      "popularity": 1,
+      "bestSelling": false,
+      "new" : true,
+      "sale" : false,
+      "inStock" : true,
+      "description" : "Pumped with attitude, the instax mini 40 combines fast to action features with classic design cues, so you can give your take before anyone else.The instax mini 40 is pumped with attitude for todays new generation of image makers and shot takers"
 }
 
 
