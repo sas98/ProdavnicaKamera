@@ -47,16 +47,42 @@ function pullData(file, callback){
         counter++;
         html += `<a
         href="#"
-        class="list-group-item list-group-item-action types active"
-        data-custom-value="${types.id}"
-        >${types.name} <small class="text-muted">(${counter})</small></a
+        class="list-group-item list-group-item-action types"
+        data-custom-value="${type.id}"
+        >${type.name} <small class="text-muted">(${counter})</small></a
       >`;
+
+      
     });
+    $('.types:first').addClass('active');// kako dodati prvom elementu klasu active ?
     document.getElementById('types').innerHTML = html;
     types = data;
     $('.types').change(filterChange);
     
-    fetchData("brands", showBrands);
+    pullData("brands", showBrands);
+}
+
+
+function showBrands(data){
+    let counter = 0;//sa ovim brojacem razmisljam kako u zagradi da uradim ono da se zna koliko ima prozivoda iz svake kategroija/podkategorije
+    let html = "";
+    data.forEach(brand => {
+        counter++;
+        html += `<a
+        href="#"
+        class="list-group-item list-group-item-action brands"
+        data-custom-value="${brand.id}"
+        >${brand.name} <small class="text-muted">(${counter})</small></a
+      >`;
+
+      
+    });
+    $('.brands:first').addClass('active');// kako dodati prvom elementu klasu active ?
+    document.getElementById('types').innerHTML = html;
+    brands = data;
+    $('.brands').change(filterChange);
+    
+    pullData("products", showProducts);
 }
 
 
