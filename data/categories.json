@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"name": "BridgeZoom"
+	},
+	{
+		"id": 2,
+		"name": "Waterproof/ShockProof"
+	},
+	{
+		"id": 3,
+		"name": "Instant Camera"
+	},
+	{
+		"id": 4,
+		"name": "Digital Camera"
+	},
+    {
+		"id": 5,
+		"name": "Compact Camera"
+	}
+]
