@@ -2,8 +2,8 @@
 window.onload = () => {
 
     let brands = [];
-	let categories = [];
-    pullData("brands", showBrands);
+	let types = [];
+    pullData("types", showTypes);
     
 function pullData(file, callback){
     return new Promise((resolve, reject)=>{
@@ -40,8 +40,44 @@ function pullData(file, callback){
    }
 
 
+   function showTypes(data){
+    let counter = 0;
+    let html = "";
+    data.forEach(type => {
+        counter++;
+        html += `<a
+        href="#"
+        class="list-group-item list-group-item-action types active"
+        data-custom-value="${types.id}"
+        >${types.name} <small class="text-muted">(${counter})</small></a
+      >`;
+    });
+    document.getElementById('types').innerHTML = html;
+    types = data;
+    $('.types').change(filterChange);
+    
+    fetchData("brands", showBrands);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 }
+
+
+
