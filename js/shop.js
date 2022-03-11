@@ -48,7 +48,7 @@ function pullData(file, callback){
         href="#"
         class="list-group-item list-group-item-action types"
         data-custom-value="${type.id}"
-        >${type.name} <small class="text-muted">(${counter})</small></a
+        >${type.name} <small class="text-muted">()</small></a
       >`;
 
       
@@ -70,7 +70,7 @@ function showBrands(data){
         href="#"
         class="list-group-item list-group-item-action brands"
         data-custom-value="${brand.id}"
-        >${brand.name} <small class="text-muted">(${counter})</small></a
+        >${brand.name} <small class="text-muted">()</small></a
       >`;
 
       
