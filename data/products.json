@@ -3,7 +3,7 @@
     "id": 1,
     "name": "COOLPIX P950",
     "brand": 3,
-    "categories": 1,
+    "type": 1,
     "price": {
       "newPrice": "799.99",
       "oldPrice": "900"
@@ -23,7 +23,7 @@
     "id": 2,
     "name": "COOLPIX B600",
     "brand": 3,
-    "categories": 1,
+    "type": 1,
     "price": {
       "newPrice": "329.99",
       "oldPrice": "399.99"
@@ -43,7 +43,7 @@
     "id": 3,
     "name": "COOLPIX P1000",
     "brand": 3,
-    "categories": 1,
+    "type": 1,
     "price": {
       "newPrice": "999.99",
       "oldPrice": "1099.99"
@@ -63,7 +63,7 @@
     "id": 4,
     "name": "COOLPIX B500",
     "brand": 3,
-    "categories": 1,
+    "type": 1,
     "price": {
       "newPrice": "399.99",
       "oldPrice": "349.99"
@@ -83,7 +83,7 @@
     "id": 5,
     "name": "COOLPIX A1000",
     "brand": 3,
-    "categories": 1,
+    "type": 1,
     "price": {
       "newPrice": "479.99",
       "oldPrice": "489.99"
@@ -103,7 +103,7 @@
     "id": 5,
     "name": "COOLPIX A1000",
     "brand": 3,
-    "categories": 1,
+    "type": 1,
     "price": {
       "newPrice": "479.99",
       "oldPrice": "489.99"
@@ -123,7 +123,7 @@
     "id": 6,
     "name": "COOLPIX W150",
     "brand": 3,
-    "categories": 2,
+    "type": 2,
     "price": {
       "newPrice": "169.99",
       "oldPrice": "189.99"
@@ -143,7 +143,7 @@
     "id": 7,
     "name": "COOLPIX W300",
     "brand": 3,
-    "categories": 2,
+    "type": 2,
     "price": {
       "newPrice": "389.99",
       "oldPrice": "449.99"
@@ -164,7 +164,7 @@
     "id":8,
     "name" : "FUJIFILM X-T30",
     "brand" : 1,
-    "categories" : 1,
+    "type" : 1,
     "price" : {
         "newPrice" :"499.99" ,
         "oldPrice" : "549.99"
@@ -186,7 +186,7 @@
     "id":9,
     "name" : "FUJIFILM X-T30 II",
     "brand" : 1,
-    "categories" : 1,
+    "type" : 1,
     "price" : {
         "newPrice" :"769.99" ,
         "oldPrice" : "799.99"
@@ -208,7 +208,7 @@
     "id":10,
     "name" : "FUJIFILM GFX50S II with GF35-70mm Lens",
     "brand" : 1,
-    "categories" : 1,
+    "type" : 1,
     "price" : {
         "newPrice" :"3899.99" ,
         "oldPrice" : "4199.99"
@@ -230,7 +230,7 @@
     "id":11,
     "name" : "FUJIFILM GFX50S II ",
     "brand" : 1,
-    "categories" : 1,
+    "type" : 1,
     "price" : {
         "newPrice" :"3499.99" ,
         "oldPrice" : "3699.99"
@@ -252,7 +252,7 @@
   "id":12,
   "name" : "FUJIFILM X-E4 Kit (XF27mm Lens) Refurbished",
   "brand" : 1,
-  "categories" : 1,
+  "type" : 1,
   "price" : {
       "newPrice" :"849.99" ,
       "oldPrice" : "999.99"
@@ -275,7 +275,7 @@
   "id":13,
   "name" : "Instax mini LiPlay",
   "brand" : 4,
-  "categories" : 3,
+  "type" : 3,
   "price" : {
       "newPrice" :"149.99" ,
       "oldPrice" : "169.99"
@@ -297,7 +297,7 @@
   "id":14,
   "name" : "Instax mini 11",
   "brand" : 4,
-  "categories" : 3,
+  "type" : 3,
   "price" : {
       "newPrice" :"69.99" ,
       "oldPrice" : "79.99"
@@ -319,7 +319,7 @@
   "id":15,
   "name" : "Instax SQUARE SQ1 Instant Camera",
   "brand" : 4,
-  "categories" : 3,
+  "type" : 3,
   "price" : {
       "newPrice" :"119.99" ,
       "oldPrice" : "129.99"
@@ -341,7 +341,7 @@
   "id":16,
   "name" : "Instax mini 40",
   "brand" : 4,
-  "categories" : 3,
+  "type" : 3,
   "price" : {
       "newPrice" :"89.99" ,
       "oldPrice" : "94.99"
@@ -364,7 +364,7 @@
   "id":17,
   "name" : "PowerShot G1 X Mark III",
   "brand" : 2,
-  "categories" : 4,
+  "type" : 4,
   "price" : {
       "newPrice" :"999.99" ,
       "oldPrice" : "1199.99"
@@ -386,7 +386,7 @@
       "id":18,
       "name" : "PowerShot G5 X Mark II",
       "brand" : 2,
-      "categories" : 4,
+      "type" : 4,
       "price" : {
           "newPrice" :"899.99" ,
           "oldPrice" : "1099.99"
@@ -408,7 +408,7 @@
       "id":19,
       "name" : "PowerShot G5 X Mark II",
       "brand" : 2,
-      "categories" : 4,
+      "type" : 4,
       "price" : {
           "newPrice" :"899.99" ,
           "oldPrice" : "1099.99"
@@ -430,7 +430,7 @@
           "id":20,
           "name" : "PowerShot G7 X Mark III Black",
           "brand" : 2,
-          "categories" : 4,
+          "type" : 4,
           "price" : {
               "newPrice" :"749.99" ,
               "oldPrice" : "1099.99"
@@ -452,7 +452,7 @@
           "id":21,
           "name" : "PowerShot G7 X Mark II",
           "brand" : 2,
-          "categories" : 4,
+          "type" : 4,
           "price" : {
               "newPrice" :"629.99" ,
               "oldPrice" : "799.99"
@@ -474,7 +474,7 @@
           "id":22,
           "name" : "PowerShot SX70 HS",
           "brand" : 2,
-          "categories" : 4,
+          "type" : 4,
           "price" : {
               "newPrice" :"599.99" ,
               "oldPrice" : "620.99"
@@ -496,7 +496,7 @@
           "id":23,
           "name" : "PowerShot SX420 IS Red",
           "brand" : 2,
-          "categories" : 4,
+          "type" : 4,
           "price" : {
               "newPrice" :"279.99" ,
               "oldPrice" : "350"
@@ -518,7 +518,7 @@
           "id":24,
           "name" : "PowerShot SX720 HS Red",
           "brand" : 2,
-          "categories" : 4,
+          "type" : 4,
           "price" : {
               "newPrice" :"309.99" ,
               "oldPrice" : "320.99"
@@ -540,7 +540,7 @@
           "id":25,
           "name" : "PowerShot ELPH 190 IS Black",
           "brand" : 2,
-          "categories" : 4,
+          "type" : 4,
           "price" : {
               "newPrice" :"179.99" ,
               "oldPrice" : "219.99"
@@ -562,7 +562,7 @@
           "id":26,
           "name" : "ILCE-7C",
           "brand" : 5,
-          "categories" : 5,
+          "type" : 5,
           "price" : {
               "newPrice" :"1799.99" ,
               "oldPrice" : "1879.99"
@@ -585,7 +585,7 @@
           "id":27,
           "name" : "ILCE-6600",
           "brand" : 5,
-          "categories" : 5,
+          "type" : 5,
           "price" : {
               "newPrice" :"1399.99" ,
               "oldPrice" : "1449.99"
@@ -607,7 +607,7 @@
           "id":28,
           "name" : "ILCE-6400L",
           "brand" : 5,
-          "categories" : 5,
+          "type" : 5,
           "price" : {
               "newPrice" :"999.99" ,
               "oldPrice" : "1199.99"
@@ -629,7 +629,7 @@
           "id":29,
           "name" : "ILCE-6100L",
           "brand" : 5,
-          "categories" : 5,
+          "type" : 5,
           "price" : {
               "newPrice" :"849.99" ,
               "oldPrice" : "989.99"
@@ -651,7 +651,7 @@
           "id":30,
           "name" : "ILCE-6000",
           "brand" : 5,
-          "categories" : 5,
+          "type" : 5,
           "price" : {
               "newPrice" :"549.99" ,
               "oldPrice" : "569.99"
