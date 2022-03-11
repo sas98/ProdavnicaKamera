@@ -56,7 +56,7 @@ function pullData(file, callback){
     $('.types:first').addClass('active');// kako dodati prvom elementu klasu active ?
     document.getElementById('types').innerHTML = html;
     types = data;
-    $('.types').change(filterChange);
+    // $('.types').change(filterChange);
     
     pullData("brands", showBrands);
 }
@@ -78,7 +78,7 @@ function showBrands(data){
     $('.brands:first').addClass('active');// kako dodati prvom elementu klasu active ?
     document.getElementById('brands').innerHTML = html;
     brands = data;
-    $('.brands').change(filterChange);
+    // $('.brands').change(filterChange);
     
     pullData("products", showProducts);
 }
