@@ -7,9 +7,9 @@ window.onload = () => {
   pullData("types", showTypes);
   pullData("brands", showBrands);
 
-  showProducts();
   showTypes();
   showBrands();
+  showProducts();
 
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
