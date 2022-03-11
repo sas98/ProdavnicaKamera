@@ -1,11 +1,10 @@
 window.onload = () => {
   var brands = [];
   var types = [];
-  var products = [];
 
-  pullData("products", getProducts);
-  pullData("types", getTypes);
-  pullData("brands", getBrands);
+  pullData("products", showTypes);
+  pullData("types", showBrands);
+  pullData("brands", showProducts);
 
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
@@ -41,18 +40,6 @@ window.onload = () => {
     });
   }
 
-  function getProducts(data) {
-    products = data;
-  }
-
-  function getTypes(data) {
-    types = data;
-  }
-
-  function getBrands(data) {
-    brands = data;
-  }
-
   function showTypes(data) {
     let html = "";
     data.forEach((type) => {
@@ -60,15 +47,12 @@ window.onload = () => {
         href="#"
         class="list-group-item list-group-item-action types"
         data-custom-value="${type.id}"
-        >${type.name} <small class="text-muted">(${countType(
-        products,
-        type.id
-      )})</small></a
+        >${type.name} <small class="text-muted">()</small></a
       >`;
     });
     $(".types:first").addClass("active"); // kako dodati prvom elementu klasu active ?
     document.getElementById("types").innerHTML = html;
-
+    types = data;
     // $('.types').change(filterChange);
   }
 
@@ -80,15 +64,12 @@ window.onload = () => {
         href="#"
         class="list-group-item list-group-item-action brands"
         data-custom-value="${brand.id}"
-        >${brand.name} <small class="text-muted">(${countBrand(
-        products,
-        brand.id
-      )})</small></a
+        >${brand.name} <small class="text-muted">()</small></a
       >`;
     });
     $(".brands:first").addClass("active"); // kako dodati prvom elementu klasu active ?
     document.getElementById("brands").innerHTML = html;
-
+    brands = data;
     // $('.brands').change(filterChange);
   }
 
@@ -125,6 +106,8 @@ window.onload = () => {
       </div>`;
     });
     document.getElementById("product").innerHTML = html;
+
+    products = data;
   }
 
   function getBrandOfProduct(id) {
@@ -154,12 +137,4 @@ window.onload = () => {
     });
     return counter;
   }
-
-  console.log(brands);
-  console.log(types);
-  console.log(products);
-
-  showTypes(types);
-  showBrands(brands);
-  showProducts(products);
 };
