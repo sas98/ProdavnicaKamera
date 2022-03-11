@@ -8,7 +8,7 @@ window.onload = () => {
 function pullData(file, callback){
     return new Promise((resolve, reject)=>{
     $.ajax({
-    url: `/data/${file}.json`,
+    url: `data/${file}.json`,
     method: "get",
     dataType: "json",
     success: function(data){
@@ -76,7 +76,7 @@ function showBrands(data){
       
     });
     $('.brands:first').addClass('active');// kako dodati prvom elementu klasu active ?
-    document.getElementById('types').innerHTML = html;
+    document.getElementById('brands').innerHTML = html;
     brands = data;
     $('.brands').change(filterChange);
     
