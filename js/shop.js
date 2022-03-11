@@ -56,7 +56,8 @@ window.onload = () => {
 
   function showTypes(data) {
     var products = getProducts();
-
+    console.log(products);
+    
     let html = "";
     data.forEach((type) => {
       html += `<a
