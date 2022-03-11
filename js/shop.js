@@ -52,7 +52,7 @@ window.onload = () => {
   function getProducts(data) {
     console.log(data);
     products = data;
-    console.log(data);
+    console.log(products);
   }
 
   function getTypes(data) {
