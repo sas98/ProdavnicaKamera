@@ -1,7 +1,7 @@
 window.onload = () => {
-  let brands = [];
-  let types = [];
-  let products = [];
+  var brands = [];
+  var types = [];
+  var products = [];
 
   pullData("products", getProducts);
   pullData("types", getTypes);
