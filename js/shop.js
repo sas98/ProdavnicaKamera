@@ -40,34 +40,14 @@ window.onload = () => {
     });
   }
 
-  function getProducts() {
-    $.ajax({
-      url: "assets/data/products.json",
-      method: "get",
-      dataType: "json",
-      success: function (data) {
-        return data;
-      },
-      error: function (err) {
-        console.log(err);
-      }
-    });
-  }
-
   function showTypes(data) {
-    var products = getProducts();
-    console.log(products);
-    
     let html = "";
     data.forEach((type) => {
       html += `<a
         href="#"
         class="list-group-item list-group-item-action types"
         data-custom-value="${type.id}"
-        >${type.name} <small class="text-muted">(${countType(
-        products,
-        type.id
-      )})</small></a
+        >${type.name} <small class="text-muted">()</small></a
       >`;
     });
     $(".types:first").addClass("active"); // kako dodati prvom elementu klasu active ?
