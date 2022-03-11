@@ -51,6 +51,7 @@ window.onload = () => {
   }
 
   function getProducts(data) {
+    console.log(data);
     products = data;
   }
 
