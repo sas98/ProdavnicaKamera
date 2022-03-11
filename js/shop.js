@@ -3,13 +3,13 @@ window.onload = () => {
   let types = [];
   let products = [];
 
-  pullData("products", showProducts);
-  pullData("types", showTypes);
-  pullData("brands", showBrands);
+  pullData("products", getProducts);
+  pullData("types", getTypes);
+  pullData("brands", getBrands);
 
-  showTypes();
-  showBrands();
-  showProducts();
+  showTypes(types);
+  showBrands(brands);
+  showProducts(products);
 
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
@@ -18,7 +18,7 @@ window.onload = () => {
         method: "get",
         dataType: "json",
         success: function (data) {
-//          resolve(callback(data));
+          resolve(callback(data));
         },
         error: function (jqXHR, exception) {
           reject(jqXHR.status);
@@ -45,6 +45,18 @@ window.onload = () => {
     });
   }
 
+  function getProducts(data) {
+    products = data;
+  }
+
+  function getTypes(data) {
+    types = data;
+  }
+
+  function getBrands(data) {
+    brands = data;
+  }
+
   function showTypes(data) {
     let html = "";
     data.forEach((type) => {
@@ -60,7 +72,7 @@ window.onload = () => {
     });
     $(".types:first").addClass("active"); // kako dodati prvom elementu klasu active ?
     document.getElementById("types").innerHTML = html;
-    types = data;
+
     // $('.types').change(filterChange);
   }
 
@@ -80,7 +92,7 @@ window.onload = () => {
     });
     $(".brands:first").addClass("active"); // kako dodati prvom elementu klasu active ?
     document.getElementById("brands").innerHTML = html;
-    brands = data;
+
     // $('.brands').change(filterChange);
   }
 
@@ -117,8 +129,6 @@ window.onload = () => {
       </div>`;
     });
     document.getElementById("product").innerHTML = html;
-
-    products = data;
   }
 
   function getBrandOfProduct(id) {
