@@ -107,7 +107,6 @@ window.onload = () => {
     });
     document.getElementById("product").innerHTML = html;
 
-    products = data;
   }
 
   function getBrandOfProduct(id) {
