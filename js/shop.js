@@ -7,6 +7,10 @@ window.onload = () => {
   pullData("types", getTypes);
   pullData("brands", getBrands);
 
+  console.log(brands);
+  console.log(types);
+  console.log(products);
+
   showTypes(types);
   showBrands(brands);
   showProducts(products);
