@@ -91,21 +91,24 @@ function showProducts(data){
     data = sort(data);
     let html = "";
     data.forEach(product => {
-        html+= `<div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="assets/img/${product.image.src}" alt="${product.image.alt}"></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">${product.name}</a>
-            </h4>
-            <h6>${getProductBrand(product.brand)}</h6>
-            <h5>$${product.price.currentPrice}</h5>
-            ${product.price.priceBeforeDiscount ? "<s>$" + product.price.priceBeforeDiscount + "</s>" : ""}
-            <p style="color: blue;">${product.freeShipping ? "Free shipping" : ""}</p>
-            <p class="card-text">
-              ${getProductCategories(product.categories)}
-            </p>
-            <p class="card-text">${product.description}</p>
+        html+= `<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+        <div class="products-single fix">
+          <div class="box-img-hover">
+            <div class="type-lb">
+              <p class="sale">Sale</p>
+            </div>
+            <img
+              src="images/img-pro-01.jpg"
+              class="img-fluid"
+              alt="Image"
+            />
+            <div class="mask-icon">
+              <a class="cart" href="#">Add to Cart</a>
+            </div>
+          </div>
+          <div class="why-text">
+            <h4>${product.name}</h4>
+            <h5>$9.79</h5>
           </div>
         </div>
       </div>`;
