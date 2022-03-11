@@ -138,7 +138,7 @@ window.onload = () => {
   function countBrand(data, brandId) {
     let counter = 0;
     data.forEach((product) => {
-      if (product.brand === typeId) {
+      if (product.brand === brandId) {
         counter++;
       }
     });
