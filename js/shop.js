@@ -109,12 +109,10 @@ window.onload = () => {
   }
 
   function getBrandOfProduct(id) {
-    console.log(brands);
     return brands.filter((b) => b.id == id)[0].name;
   }
 
   function getTypeOfProduct(id) {
-    console.log(types);
     return types.filter((b) => b.id == id)[0].name;
   }
 
