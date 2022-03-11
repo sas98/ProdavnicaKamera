@@ -8,7 +8,7 @@ window.onload = () => {
 function pullData(file, callback){
     return new Promise((resolve, reject)=>{
     $.ajax({
-    url: `assets/data/${file}.json`,
+    url: `/data/${file}.json`,
     method: "get",
     dataType: "json",
     success: function(data){
