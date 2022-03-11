@@ -18,7 +18,7 @@ window.onload = () => {
         method: "get",
         dataType: "json",
         success: function (data) {
-          resolve(callback(data));
+//          resolve(callback(data));
         },
         error: function (jqXHR, exception) {
           reject(jqXHR.status);
