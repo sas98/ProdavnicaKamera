@@ -108,8 +108,8 @@ function showProducts(data){
           </div>
           <div class="why-text">
             <h4>${product.name}</h4>
-            <h5>${getBrandOfProduct(product.brand)}</h5>
-            <h5>${getTypeOfProduct(product.brand)}</h5>
+            <h4>${getBrandOfProduct(product.brand)}</h4>
+            <h4>${getTypeOfProduct(product.brand)}</h4>
             <h5>${product.price.newPrice}</h5>
           </div>
         </div>
