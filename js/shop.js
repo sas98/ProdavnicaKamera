@@ -2,9 +2,9 @@ window.onload = () => {
   var brands = [];
   var types = [];
 
-  pullData("products", showTypes);
-  pullData("types", showBrands);
-  pullData("brands", showProducts);
+  pullData("types", showTypes);
+  pullData("brands", showBrands);
+  pullData("products", showProducts);
 
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
@@ -106,7 +106,6 @@ window.onload = () => {
       </div>`;
     });
     document.getElementById("product").innerHTML = html;
-
   }
 
   function getBrandOfProduct(id) {
