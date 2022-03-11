@@ -63,7 +63,7 @@ function pullData(file, callback){
 
 
 function showBrands(data){
-   
+    console.log("showBrands funkcija");
     let html = "";
     data.forEach(brand => {
         html += `<a
