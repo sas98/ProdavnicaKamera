@@ -6,9 +6,6 @@ window.onload = () => {
   pullData("brands", showBrands);
   pullData("products", showProducts);
 
-  console.log(brands);
-  console.log(types);
-
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
       $.ajax({
@@ -112,10 +109,12 @@ window.onload = () => {
   }
 
   function getBrandOfProduct(id) {
+    console.log(brands);
     return brands.filter((b) => b.id == id)[0].name;
   }
 
   function getTypeOfProduct(id) {
+    console.log(types);
     return types.filter((b) => b.id == id)[0].name;
   }
 
