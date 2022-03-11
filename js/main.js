@@ -44,7 +44,6 @@ function pullData(file, callback){
     let counter = 0;
     let html = "";
     data.forEach(type => {
-        counter++;
         html += `<a
         href="#"
         class="list-group-item list-group-item-action types"
@@ -64,10 +63,9 @@ function pullData(file, callback){
 
 
 function showBrands(data){
-    let counter = 0;//sa ovim brojacem razmisljam kako u zagradi da uradim ono da se zna koliko ima prozivoda iz svake kategroija/podkategorije
+   
     let html = "";
     data.forEach(brand => {
-        counter++;
         html += `<a
         href="#"
         class="list-group-item list-group-item-action brands"
