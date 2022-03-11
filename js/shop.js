@@ -22,7 +22,6 @@ window.onload = () => {
         method: "get",
         dataType: "json",
         success: function (data) {
-          console.log(data);
           resolve(callback(data));
         },
         error: function (jqXHR, exception) {
