@@ -86,9 +86,9 @@ function showBrands(data){
 
 
 function showProducts(data){
-    data = brandFilter(data);
-    data = categoryFilter(data);
-    data = sort(data);
+    // data = brandFilter(data);
+    // data = categoryFilter(data);
+    // data = sort(data);
     let html = "";
     data.forEach(product => {
         html+= `<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
@@ -98,9 +98,9 @@ function showProducts(data){
               <p class="sale">Sale</p>
             </div>
             <img
-              src="images/img-pro-01.jpg"
+              src="${product.image.src}"
               class="img-fluid"
-              alt="Image"
+              alt="${product.image.src}"
             />
             <div class="mask-icon">
               <a class="cart" href="#">Add to Cart</a>
@@ -108,15 +108,23 @@ function showProducts(data){
           </div>
           <div class="why-text">
             <h4>${product.name}</h4>
-            <h5>$9.79</h5>
+            <h5>${getBrandOfProduct(product.brand)}</h5>
+            <h5>${getTypeOfProduct(product.brand)}</h5>
+            <h5>${product.price.newPrice}</h5>
           </div>
         </div>
       </div>`;
     });
-    document.getElementById('products').innerHTML = html;
+    document.getElementById('product').innerHTML = html;
 }
 
+function getBrandOfProduct(id) {
+    return brands.filter((b) => b.id == id)[0].name;
+  }
 
+  function getTypeOfProduct(id) {
+    return types.filter((b) => b.id == id)[0].name;
+  }
 
 
 
