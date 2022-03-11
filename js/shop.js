@@ -7,14 +7,6 @@ window.onload = () => {
   pullData("types", getTypes);
   pullData("brands", getBrands);
 
-  console.log(brands);
-  console.log(types);
-  console.log(products);
-
-  showTypes(types);
-  showBrands(brands);
-  showProducts(products);
-
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
       $.ajax({
@@ -50,9 +42,7 @@ window.onload = () => {
   }
 
   function getProducts(data) {
-    console.log(data);
     products = data;
-    console.log(products);
   }
 
   function getTypes(data) {
@@ -164,4 +154,12 @@ window.onload = () => {
     });
     return counter;
   }
+
+  console.log(brands);
+  console.log(types);
+  console.log(products);
+
+  showTypes(types);
+  showBrands(brands);
+  showProducts(products);
 };
