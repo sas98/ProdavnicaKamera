@@ -41,7 +41,7 @@ function pullData(file, callback){
 
 
    function showTypes(data){
-    let counter = 0;
+    
     let html = "";
     data.forEach(type => {
         html += `<a
