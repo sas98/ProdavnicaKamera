@@ -7,6 +7,10 @@ window.onload = () => {
   pullData("types", showTypes);
   pullData("brands", showBrands);
 
+  showProducts();
+  showTypes();
+  showBrands();
+
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
       $.ajax({
