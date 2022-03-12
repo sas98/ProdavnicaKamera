@@ -1,10 +1,10 @@
 window.onload = () => {
   var brands = [];
   var types = [];
+  let products = [];
 
   pullData("types", showTypes);
-  pullData("brands", showBrands);
-  pullData("products", showProducts);
+  
 
   function pullData(file, callback) {
     return new Promise((resolve, reject) => {
@@ -42,24 +42,25 @@ window.onload = () => {
 
   function showTypes(data) {
     let html = "";
-    data.forEach((type) => {
+    data.forEach(type => {
       html += `<a
         href="#"
         class="list-group-item list-group-item-action types"
         data-custom-value="${type.id}"
-        >${type.name} <small class="text-muted">()</small></a
-      >`;
+        >${type.name} <small class="text-muted">()</small></a>`;
     });
     $(".types:first").addClass("active"); // kako dodati prvom elementu klasu active ?
     document.getElementById("types").innerHTML = html;
     types = data;
+    
     // $('.types').change(filterChange);
+    pullData("brands", showBrands);
   }
 
   function showBrands(data) {
-    console.log("showBrands funkcija");
+    
     let html = "";
-    data.forEach((brand) => {
+    data.forEach(brand => {
       html += `<a
         href="#"
         class="list-group-item list-group-item-action brands"
@@ -70,6 +71,7 @@ window.onload = () => {
     $(".brands:first").addClass("active"); // kako dodati prvom elementu klasu active ?
     document.getElementById("brands").innerHTML = html;
     brands = data;
+    pullData("products", showProducts);
     // $('.brands').change(filterChange);
   }
 
@@ -79,7 +81,7 @@ window.onload = () => {
     // data = sort(data);
 
     let html = "";
-    data.forEach((product) => {
+    data.forEach(product => {
       html += `<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
         <div class="products-single fix">
           <div class="box-img-hover">
@@ -97,13 +99,13 @@ window.onload = () => {
           </div>
           <div class="why-text">
             <h4>${product.name}</h4>
-            <h4>${getBrandOfProduct(product.brand)} - ${getTypeOfProduct(
-        product.brand
-      )}</h4>
+            <h4>${getBrandOfProduct(product.brand)} - ${getTypeOfProduct(product.type)}</h4>
             <h5>${product.price.newPrice}</h5>
           </div>
         </div>
       </div>`;
+
+      products = data;
     });
     document.getElementById("product").innerHTML = html;
   }

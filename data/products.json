@@ -99,26 +99,7 @@
     "inStock": true,
     "description": "Packed inside this sleek, high-end design is a super telephoto NIKKOR zoom lens and serious photo and video power: versatile low-light capabilities, rock-steady image and video stabilization, 4K Ultra HD recording, P/S/A/M control, RAW shooting, creative modes and filters, a tilting touchscreen and even an ultra-sharp electronic viewfinder for composing like a pro. It connects to the SnapBridge 2.5 app for instant sharing and remote control, and it handles like a dream. For those who want an all-in-one camera that can do it all, the COOLPIX A1000 delivers."
   },
-  {
-    "id": 5,
-    "name": "COOLPIX A1000",
-    "brand": 3,
-    "type": 1,
-    "price": {
-      "newPrice": "479.99",
-      "oldPrice": "489.99"
-    },
-    "image": {
-      "src": "images/nikon/image5.jpg",
-      "alt": "COOLPIX A1000"
-    },
-    "popularity": 1,
-    "bestSelling": false,
-    "new": true,
-    "sale": false,
-    "inStock": true,
-    "description": "Packed inside this sleek, high-end design is a super telephoto NIKKOR zoom lens and serious photo and video power: versatile low-light capabilities, rock-steady image and video stabilization, 4K Ultra HD recording, P/S/A/M control, RAW shooting, creative modes and filters, a tilting touchscreen and even an ultra-sharp electronic viewfinder for composing like a pro. It connects to the SnapBridge 2.5 app for instant sharing and remote control, and it handles like a dream. For those who want an all-in-one camera that can do it all, the COOLPIX A1000 delivers."
-  },
+  
   {
     "id": 6,
     "name": "COOLPIX W150",
@@ -403,31 +384,10 @@
           "inStock" : false,
           "description" : null 
         },
+       
         {
 
-      "id":19,
-      "name" : "PowerShot G5 X Mark II",
-      "brand" : 2,
-      "type" : 4,
-      "price" : {
-          "newPrice" :"899.99" ,
-          "oldPrice" : "1099.99"
-      },
-          "image":{
-              "src":"images/canon/image2.jpg",
-              "alt" : "PowerShot G5 X Mark II"
-      
-          },
-          "popularity": 3.5,
-          "bestSelling": false,
-          "new" : false,
-          "sale" : true,
-          "inStock" : false,
-          "description" : null 
-        },
-        {
-
-          "id":20,
+          "id":19,
           "name" : "PowerShot G7 X Mark III Black",
           "brand" : 2,
           "type" : 4,
@@ -449,7 +409,7 @@
         },
         {
 
-          "id":21,
+          "id":20,
           "name" : "PowerShot G7 X Mark II",
           "brand" : 2,
           "type" : 4,
@@ -471,7 +431,7 @@
         },
         {
 
-          "id":22,
+          "id":21,
           "name" : "PowerShot SX70 HS",
           "brand" : 2,
           "type" : 4,
@@ -493,7 +453,7 @@
         },
         {
 
-          "id":23,
+          "id":22,
           "name" : "PowerShot SX420 IS Red",
           "brand" : 2,
           "type" : 4,
@@ -515,7 +475,7 @@
         },
         {
 
-          "id":24,
+          "id":23,
           "name" : "PowerShot SX720 HS Red",
           "brand" : 2,
           "type" : 4,
@@ -537,7 +497,7 @@
         },
         {
 
-          "id":25,
+          "id":24,
           "name" : "PowerShot ELPH 190 IS Black",
           "brand" : 2,
           "type" : 4,
@@ -559,7 +519,7 @@
         },
         {
 
-          "id":26,
+          "id":25,
           "name" : "ILCE-7C",
           "brand" : 5,
           "type" : 5,
@@ -582,7 +542,7 @@
 
         {
 
-          "id":27,
+          "id":26,
           "name" : "ILCE-6600",
           "brand" : 5,
           "type" : 5,
@@ -604,7 +564,7 @@
         },
         {
 
-          "id":28,
+          "id":27,
           "name" : "ILCE-6400L",
           "brand" : 5,
           "type" : 5,
@@ -626,7 +586,7 @@
         },
         {
 
-          "id":29,
+          "id":28,
           "name" : "ILCE-6100L",
           "brand" : 5,
           "type" : 5,
@@ -648,7 +608,7 @@
         },
         {
 
-          "id":30,
+          "id":29,
           "name" : "ILCE-6000",
           "brand" : 5,
           "type" : 5,
