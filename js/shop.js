@@ -1,22 +1,22 @@
 window.onload = () => {
-  var brands = [];
-  var types = [];
+  let brands = [];
+  let types = [];
   let products = [];
 
   pullData("types", showTypes);
   
 
   function pullData(file, callback) {
-    return new Promise((resolve, reject) => {
+  
       $.ajax({
         url: `data/${file}.json`,
         method: "get",
         dataType: "json",
         success: function (data) {
-          resolve(callback(data));
+          callback(data);
         },
         error: function (jqXHR, exception) {
-          reject(jqXHR.status);
+         
 
           var msg = "";
           if (jqXHR.status === 0) {
@@ -37,8 +37,8 @@ window.onload = () => {
           alert(msg);
         },
       });
-    });
-  }
+    };
+  
 
   function showTypes(data) {
     let html = "";
@@ -86,7 +86,7 @@ window.onload = () => {
         <div class="products-single fix">
           <div class="box-img-hover">
             <div class="type-lb">
-              <p class="sale">Sale</p>
+              <p class="sale">${product.sale ? "Sale" : "New"}</p>
             </div>
             <img
               src="${product.image.src}"
@@ -115,26 +115,69 @@ window.onload = () => {
   }
 
   function getTypeOfProduct(id) {
-    return types.filter((b) => b.id == id)[0].name;
+    return types.filter((t) => t.id == id)[0].name;
   }
 
-  function countType(data, typeId) {
-    let counter = 0;
-    data.forEach((product) => {
-      if (product.type === typeId) {
-        counter++;
-      }
-    });
-    return counter;
-  }
+  // function blabla(tipovi,produkti){
+  //   tipovi.forEach(element => {
+  //     element.kolicina = 0
+  //   });
+  
+  //   produkti.forEach(produkt => {
+  //     tipovi.forEach(tip => {
+  //       if(produkt.type == tip.id)
+  //       {
+  //         tip.kolicina = tip.kolicina + 1; 
+  //       }
+  //     });
+  //   });
+  //   return a;
+  // }
+  
+  // function showTypes(data) {
+  
+  //     $.ajax({
+  //       url: "data/products.json",
+  //       method: "get",
+  //       dataType: "json",
+  //       success: function (abc) {
+  //         blabla(data,abc)
+  //         prikazPodatka(data);
+  //       },
+  //       error: function (jqXHR, exception) {
+  //        console.log("greska")
+  //       },
+  //     });
+  //   }
+  
+  // function prikazPodatka(data)
+  //   {
+  //     // console.log($("#amount").val()) vadjenje vrednosti iz filter range-a
+  
+  //     let html = "";
+  //     data.forEach(type => {
+  //       html +=  `<a
+  //         href="#"
+  //         class="list-group-item list-group-item-action types"
+  //         data-custom-value="${type.id}"
+  //         >${type.name} <small class="text-muted">(${type.kolicina})</small></a>`;
+  //     });
+  //     $(".types:first").addClass("active"); // kako dodati prvom elementu klasu active ?
+  //     document.getElementById("types").innerHTML = html;
+  //     types = data;
+  
+  //     // $('.types').change(filterChange);
+  //     pullData("brands", showBrands);
+  //   }
 
-  function countBrand(data, brandId) {
-    let counter = 0;
-    data.forEach((product) => {
-      if (product.brand === brandId) {
-        counter++;
-      }
-    });
-    return counter;
-  }
-};
+  
+
+
+
+  
+
+
+
+
+// $("a[data-custom-value=value]")
+}
